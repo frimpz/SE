@@ -1,2 +1,2 @@
 "# SE" 
-###### Consists of several works in software engieenring class
+###### Consists of several works in software engineering class 
