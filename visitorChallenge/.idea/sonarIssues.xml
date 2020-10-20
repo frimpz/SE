@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/exceptions/AlreadyStaredException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/exceptions/DefaultCategoryModificationException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/exceptions/EmailSendingException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/exceptions/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/repositories/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/resources/DataInitializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/services/ActivityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/services/EmailService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/services/ProblemService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/main/java/edu/baylor/flarn/services/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/test/java/edu/baylor/flarn/services/ActivityServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/test/java/edu/baylor/flarn/services/CategoryServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/test/java/edu/baylor/flarn/services/ReviewServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../flarn-backend/backend/src/test/java/edu/baylor/flarn/services/UserServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

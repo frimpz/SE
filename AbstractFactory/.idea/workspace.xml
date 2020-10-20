@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="752f0cab-59d5-4a12-98ee-a791dd09c1b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/PickByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/PickByRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/cart/CartLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/Distributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/CzechPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/DHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/DPD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/.Order.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/impl/AmazonProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/impl/HeurekaProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Heureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Mall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/src/main/java/edu/baylor/cs/se/hibernate/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/java/kwic/AlphabetizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/java/kwic/KWICTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/resources/file.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/resources/file2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/cart/CartLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/Distributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/CzechPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DPD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/.Order.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/AmazonProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/HeurekaProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Heureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Mall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/.UserTest.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/HeurekaUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ewrnhk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frimpzmavendemo/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frimpzmavendemo/src/test/java/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/EmptyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/test/java/XmlBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/java/midterm/model/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/java/midterm/model/goodHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/brush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/drawingContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/drawingToolsStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/pencil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/BPlusTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/BPlusTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/BufferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/BufferManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/DataDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/DataDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/FindResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/FindResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/InnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/InnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/LeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/LeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/QueryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/QueryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/BPlusTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Database.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/FileManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/FindResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/ForeignKey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/InnerNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/LeafNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Condition.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Condition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.LogicalOperators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.MathOperators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Operators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.LinearSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.PrimaryIndexSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.SecondaryIndexSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.Strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/System.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Tuple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/BPlusTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Database.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/FileManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/FindResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/ForeignKey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/InnerNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/LeafNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.Operators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/QueryManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/System.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Tuple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/stylesheet.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/AbstractFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByRank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/HeurekaUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/AmazonFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/HeurekaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/MallFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PickBy</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\Workspace\Java\Java ee\Lab2</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/HeurekaUserTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/CzechPost.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Mall.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/AmazonProdduct.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/HeurekaProduct.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/UPS.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/Rank.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/RankStrategy.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PriceStrategy.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/StrategyContext.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByPrice.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByRank.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/cart/Cart.java" />
+        <option value="$PROJECT_DIR$/src/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/store/PickByPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/store/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/CartLineItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PickByRank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impl/Amazon.java" />
+        <option value="$PROJECT_DIR$/src/main/impl/Amazon.java" />
+        <option value="$PROJECT_DIR$/src/main/Strategy.java" />
+        <option value="$PROJECT_DIR$/../Factory/src/main/java/factory/cart/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/cart/Cart.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/AmazonProduct.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/MallFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/AmazonFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/HeurekaFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Amazon.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Heureka.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonUserTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/HeurekaUserTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Factory" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="900" />
+    <option name="y" value="35" />
+    <option name="width" value="1025" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568498124881" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AmazonUserTest">
+    <configuration name="boadu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boadu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.baylor.ecs.csi5324.factoryMethod.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.baylor.ecs.csi5324.factoryMethod.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.baylor.ecs.csi5324.factoryMethod.test.AmazonUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeurekaUserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.baylor.ecs.csi5324.factoryMethod.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.baylor.ecs.csi5324.factoryMethod.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.baylor.ecs.csi5324.factoryMethod.test.HeurekaUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeurekaUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HeurekaUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AmazonUserTest" />
+        <item itemvalue="JUnit.HeurekaUserTest (1)" />
+        <item itemvalue="JUnit.HeurekaUserTest" />
+        <item itemvalue="Application.boadu" />
+        <item itemvalue="JUnit.UserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="752f0cab-59d5-4a12-98ee-a791dd09c1b7" name="Default Changelist" comment="" />
+      <created>1567708350648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567708350648</updated>
+      <workItem from="1567708354363" duration="21036000" />
+      <workItem from="1568227899824" duration="17766000" />
+      <workItem from="1568500653425" duration="318000" />
+      <workItem from="1568600962363" duration="56000" />
+      <workItem from="1569874012580" duration="50000" />
+      <workItem from="1569874300701" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 04m 11s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 06m 14s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 06m 48s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 09m 09s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 11m 15s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 11m 53s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeurekaUserTest_(1) - 2019.09.13 at 19h 12m 07s.xml">
+      <configuration name="HeurekaUserTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 12m 22s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 12m 36s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonUserTest - 2019.09.13 at 19h 19m 50s.xml">
+      <configuration name="AmazonUserTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39249000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21275167" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.36595175" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31367293" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3144963" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.39701897" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.42818427" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/CzechPost.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/DHL.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/DPD.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/UPS.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/AmazonUserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/product/impl/HeurekaProduct.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/StrategyContext.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Lab2.zip/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Heureka.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/distributor/impl/Mall.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/distributor/impl/Heureka.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Distributor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.4/lib/src.zip!/java.base/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1315" column="22" selection-start-line="1315" selection-start-column="22" selection-end-line="1315" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/product/Product.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/product/impl/AmazonProduct.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/HeurekaUserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/UserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/distributor/impl/Amazon.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Cart.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/CartLineItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Store.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/PickByPrice.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/PickByRank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Strategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/cart/Cart.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_boadu.zip/boadu/boadu.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Heureka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/Distributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/CzechPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DHL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DPD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/cart/CartLineItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/cart/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/AmazonProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/HeurekaProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/AmazonFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/HeurekaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/factory/MallFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/HeurekaUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/baylor/ecs/csi5324/factoryMethod/PickByPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Factory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.13-beta-3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

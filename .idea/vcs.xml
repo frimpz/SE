@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MavenJDBC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flarn-Gatling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gatling-maven-plugin-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kitchensink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/quickstart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/selenium-starter-kit" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be9e469c-b1a3-4883-ab7e-00c4091dbc60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/PickByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/PickByRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/cart/CartLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/Distributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/CzechPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/DHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/DPD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/distributor/impl/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/.Order.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/impl/AmazonProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/product/impl/HeurekaProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Heureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/main/java/factory/store/impl/Mall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/src/main/java/edu/baylor/cs/se/hibernate/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/java/kwic/AlphabetizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/java/kwic/KWICTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/resources/file.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KWIC/src/test/resources/file2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/PickByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/PickByRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/cart/CartLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/Distributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/CzechPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/DPD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/distributor/impl/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/product/.Order.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/product/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/AmazonProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/product/impl/HeurekaProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Heureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/store/impl/Mall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/test/.UserTest.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/test/.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/test/AmazonUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/test/HeurekaUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/edu/baylor/ecs/csi5324/factoryMethod/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/person-ds1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/person-ds2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/adapter/PersonClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/adapter/PersonObjectAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/business/IPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/business/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/business/RemotePersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/container/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/model/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/model/remote/PersonDS1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/model/remote/PersonDS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/view/ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/view/page/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/view/page/PersonListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NanoContainerMaven/src/main/java/view/page/ReportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ewrnhk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frimpzmavendemo/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frimpzmavendemo/src/test/java/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/EmptyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generatorchallenge/src/test/java/XmlBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/java/midterm/model/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/java/midterm/model/goodHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/factoryMethod/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/brush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/drawingContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/drawingToolsStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch03/designPatterns/src/main/java/strategyPattern/pencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch06/tacocloud-api/src/main/java/tacos/web/api/PartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch06/tacocloud-api/src/main/java/tacos/web/api/PartResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch06/tacocloud-api/src/main/java/tacos/web/api/PartResourceAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-in-action-5-samples-master/ch06/tacocloud-data/src/main/java/tacos/data/PartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/BPlusTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/BPlusTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/BufferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/BufferManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/DataDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/DataDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/FindResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/FindResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/InnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/InnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/LeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/LeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/QueryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/QueryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbms/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dbms/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/BPlusTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Database.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.Table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/DataDictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/FileManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/FindResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/ForeignKey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/InnerNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/LeafNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Condition.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Condition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.LogicalOperators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.MathOperators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.Operators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Predicate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.LinearSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.PrimaryIndexSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.SecondaryIndexSelection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.Strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/QueryManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/System.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/Tuple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/BPlusTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Database.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.Table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/DataDictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/FileManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/FindResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/ForeignKey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/InnerNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/LeafNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.Attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.Operators.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Predicate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/QueryManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/System.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/class-use/Tuple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/dbms/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javadoc/stylesheet.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/container/Container.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/person-ds1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/person.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/remote/PersonDS1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/remote/PersonDS2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/business/RemotePersonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-169">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="27" />
+    <option name="y" value="8" />
+    <option name="width" value="1074" />
+    <option name="height" value="1065" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name=".settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NanoContainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572580883519" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Container" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="container.Container" />
+      <module name="NanoContainer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Container" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be9e469c-b1a3-4883-ab7e-00c4091dbc60" name="Default Changelist" comment="" />
+      <created>1572561130656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572561130656</updated>
+      <workItem from="1572561138936" duration="4713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4713000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="22" y="7" width="859" height="852" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4292866" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37638888" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/business/RemotePersonService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/RemotePersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/remote/PersonDS1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/remote/PersonDS2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person-ds1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
